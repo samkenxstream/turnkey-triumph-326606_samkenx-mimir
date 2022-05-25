@@ -1,7 +1,7 @@
 # Changelog
 
-This changelog is continued from `enterprise-metrics` after Grafana Enterprise Metrics was added to `mimir-distributed` in PR #1203.
-All notable changes to this chart will be documented in this file.
+This changelog is discontinued in favour of the toplevel `CHANGELOG.md` in the `grafana/mimir` repository.
+Originally it was continued from `enterprise-metrics` after Grafana Enterprise Metrics was added to `mimir-distributed` in PR #1203 in the `grafana/helm-charts` repository.
 
 Entries should be ordered as follows:
 - [CHANGE]

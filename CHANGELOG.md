@@ -19,6 +19,10 @@
 * [BUGFIX] Fix regexp parsing panic for regexp label matchers with start/end quantifiers. #1883
 * [BUGFIX] Ingester: fixed deceiving error log "failed to update cached shipped blocks after shipper initialisation", occurring for each new tenant in the ingester. #1893
 
+### Helm
+
+* [CHANGE] Version: 2.0.14. Move the `grafana/mimir-distributed` helm chart from the `grafana/helm-charts` GitHub repository into this repository under `operations/helm` and rename to `grafana/mimir-distributed-beta`. The changelog of previous versions of the chart can be found in `operations/helm/charts/mimir-distributed/CHANGELOG.md`. #1925
+
 ### Mixin
 
 * [CHANGE] Split `mimir_queries` rules group into `mimir_queries` and `mimir_ingester_queries` to keep number of rules per group within the default per-tenant limit. #1885
